@@ -226,6 +226,29 @@ li{
   margin: 0; 
 }
 
+.publication {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.thumbnail {
+  width: 250px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 20px;
+}
+.publication-info {
+  flex: 1;
+}
+
+/* .thumbnail {
+  width: 100px;
+  height: auto;
+  transition: opacity 0.3s ease-in-out;
+}
+.thumbnail:hover {
+  opacity: 0.5;
+} */
+
 /*code{
   margin: 0 2px;
   padding: 0 5px;
